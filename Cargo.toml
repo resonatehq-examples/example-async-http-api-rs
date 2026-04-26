@@ -1,0 +1,22 @@
+[package]
+name = "example-async-http-api-rs"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Async HTTP API with axum and Resonate's Rust SDK demonstrating durable long-running operations."
+
+[[bin]]
+name = "worker"
+path = "src/bin/worker.rs"
+
+[[bin]]
+name = "gateway"
+path = "src/bin/gateway.rs"
+
+[dependencies]
+resonate = { package = "resonate-sdk", git = "https://github.com/resonatehq/resonate-sdk-rs", branch = "main" }
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+axum = "0.7"
+uuid = { version = "1", features = ["v4"] }
