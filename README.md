@@ -165,5 +165,5 @@ Polls the status of a durable execution.
 ## Learn more
 
 - [Resonate Documentation](https://docs.resonatehq.io)
-- [Async HTTP API Pattern](https://docs.resonatehq.io/get-started/examples/async-http-api)
+- [Async HTTP API Pattern](https://docs.resonatehq.io/get-started/examples/async-http-api-endpoints)
 - [Rust SDK Guide](https://docs.resonatehq.io/develop/rust)
